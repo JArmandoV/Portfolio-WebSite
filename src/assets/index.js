@@ -1,4 +1,4 @@
-import logo from "./cat-icon-blue - copia.png";
+import logo from "./blue-cat.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
