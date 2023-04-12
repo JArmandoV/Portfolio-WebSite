@@ -28,42 +28,7 @@ tags, image, source_code_link, link_demo}) => {
           alt={name} 
           className="w-full h-full object-cover rounded-2xl"
           />
-          <div className="absolute inset-0 flex
-          justify-end m-3 card-img_hover">
-             {/* Demo link */}
-              <div
-                onClick={() => window.open
-                  (link_demo, "_blank")}
-                className="black-gradient w-10 h-10
-                rounded-full flex justify-center items-center
-                cursor-pointer"
-              >
-                <img 
-                src={play} 
-                alt="demo"
-                className="w-1/2 h-1/2
-                object-contain"
-                />
-
-              </div>
-
-              {/* Github link */}
-              <div
-                onClick={() => window.open
-                  (source_code_link, "_blank")}
-                className="black-gradient w-10 h-10
-                rounded-full flex justify-center items-center
-                cursor-pointer"
-              >
-                <img 
-                src={github} 
-                alt="github"
-                className="w-1/2 h-1/2
-                object-contain"
-                />
-
-              </div>
-          </div>
+          
         </div>
 
         <div className="mt-5">
@@ -71,6 +36,24 @@ tags, image, source_code_link, link_demo}) => {
             text-[24px]">{name}</h3>
             <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
+
+        <div className="mt-4">
+        <a href={`${link_demo}`} target="_blank" 
+        className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700
+         hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300
+          dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg
+           dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">
+          Demo
+        </a>
+        <a href={`${source_code_link}`} target="_blank" 
+        className="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700
+         hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300
+          dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg
+           dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+          Github
+        </a>
+        </div>
+        
 
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (

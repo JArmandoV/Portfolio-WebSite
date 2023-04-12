@@ -6,6 +6,9 @@ import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
+  <div  className="relative z-0 bg-primary">
     <App />
+    </div>
   </BrowserRouter>,
+  
 )

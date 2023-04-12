@@ -8,13 +8,14 @@ import Contactpage from "./components/pages/Contactpage"
 const App = () => {
   return (
     <>
-    <Navbar/>
+    
+    <Navbar/> 
       <Routes>
         <Route index element={<Home />}/>
-        <Route path="/home" element={<Home />}/>
-        <Route path="/work" element={<Projectspage/>}/>
-        <Route path="/about" element={<Home />}/>
-        <Route path="/contact" element={<Contactpage/>}/>
+        <Route path='/home' element={<Home />}/>
+        <Route path='/work' element={<Projectspage/>}/>
+        <Route path='/about' element={<Home />}/>
+        <Route path='/contact' element={<Contactpage/>}/>
         <Route />
       </Routes>
     </>

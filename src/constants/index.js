@@ -65,10 +65,7 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
+    /*
     {
       name: "CSS 3",
       icon: css,
@@ -84,7 +81,7 @@ import {
     {
       name: "React JS",
       icon: reactjs,
-    },
+    },*/
     {
       name: "MySQL",
       icon: mysql,
@@ -116,6 +113,10 @@ import {
     {
       name: "docker",
       icon: docker,
+    },
+    {
+      name: "HTML 5",
+      icon: html,
     },
   ];
   

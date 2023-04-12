@@ -4,8 +4,8 @@ import {
 
 const Home = () => {
   return (
-    <div className=" bg-primary">
-      <div className='relative z-0 bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+    <div>
+      <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
       <Hero />
       </div>
       <About />
