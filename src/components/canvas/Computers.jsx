@@ -33,6 +33,8 @@ const ComputersCanvas = () => {
  
 
   return (
+    <div className='w-full h-auto absolute inset-0
+    z-[-1]'>
     <Canvas
       frameloop="demand"
       shadows
@@ -49,6 +51,7 @@ const ComputersCanvas = () => {
       </Suspense>
       <Preload all />
     </Canvas>
+    </div>
   )
 }
 

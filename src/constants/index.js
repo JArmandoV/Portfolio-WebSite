@@ -32,8 +32,8 @@ import {
   
   export const navLinks = [
     {
-      id: "about",
-      title: "About",
+      id: "home",
+      title: "Home",
     },
     {
       id: "work",
@@ -135,7 +135,7 @@ import {
     },
     {
       title: "University Degree Engineering In Computer Technologies",
-      company_name: "Tesla",
+      company_name: "ITESM",
       icon: tec,
       iconBg: "#E6DEDD",
       date: "Aug 2019 - May 2023",
