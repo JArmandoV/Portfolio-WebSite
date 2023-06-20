@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { styles } from '../styles'
 import { navLinks } from '../constants'
 import { logo, menu, close } from '../assets'
+import CV from '../assets/CV.pdf'
 
 const Navbar = () => {
   const [active, setActive] = useState("")
@@ -12,7 +13,7 @@ const Navbar = () => {
     <nav
       className={
         `${styles.paddingX} w-full flex items bg-center
-        py-5 fixed top-0 z-20 bg-primary`
+        py-5 fixed top-0 z-20 bg-primary shadow-lg`
       }
     >
       <div className='w-full flex justify-between items-center
@@ -30,9 +31,22 @@ const Navbar = () => {
             cursor-pointer flex'>
             Armando &nbsp;
             <span className='sm:block hidden'>
-              | Software Developer</span>
+              | Software Engineer</span>
           </p>
         </Link>
+
+        <a href={CV} download className='relative inline-flex items-center justify-center 
+        p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group 
+        bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 
+        group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none
+         focus:ring-cyan-200 dark:focus:ring-cyan-800'>
+          <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+              Download CV
+          </span>
+          
+          </a>
+
+
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li key={link.id}

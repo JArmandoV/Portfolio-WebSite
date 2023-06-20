@@ -51,7 +51,7 @@ const Experience = () => {
           What I have done so far
           </p>
         <h2 className={styles.sectionHeadText}>
-          Projects Experience
+          My Path
           </h2>
     </motion.div>
 
@@ -63,6 +63,8 @@ const Experience = () => {
       </VerticalTimeline>
     </div>
 
+    
+    
     </>
   )
 }

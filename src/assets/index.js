@@ -34,8 +34,8 @@ import tesla from "./company/tesla.png";
 import java from "./company/java.png"
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import jobit from "./EafyProyecto.jpg";
+import tripguide from "./caridapp.png";
 
 export {
   play,

@@ -51,21 +51,24 @@ import {
       icon: web,
     },
     {
-      title: "UI Designer",
+      title: "Mobile Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Design and Implementation of Networks",
       icon: backend,
     },
     {
-      title: "Documentation IEEE",
+      title: "Design of Software Projects",
       icon: creator,
     },
   ];
   
   const technologies = [
-    /*
+    {
+      name: "HTML 5",
+      icon: html,
+    },
     {
       name: "CSS 3",
       icon: css,
@@ -74,50 +77,16 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+
     {
       name: "React JS",
       icon: reactjs,
-    },*/
+    },
     {
       name: "MySQL",
       icon: mysql,
     },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
-    {
-      name: "HTML 5",
-      icon: html,
-    },
+
   ];
   
   const experiences = [
@@ -159,7 +128,7 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
+      title: "Software Developer",
       company_name: "CENACE",
       icon: cenace,
       iconBg: "#fff",
@@ -223,48 +192,48 @@ import {
       link_demo : "https://clothing-corner.netlify.app",
     },
     {
-      name: "Job IT",
+      name: "EafySolutions",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Make an application / web page that shows the financial results of each client company of FLEX BPO based on the information found in its database data.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "node.js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "azure",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
-      link_demo : "https://clothing-corner.netlify.app",
+      source_code_link: "https://github.com/GmoWilliams/EafyHeroku",
+      link_demo : "https://marvelapp.com/prototype/hjc363h/screen/85474524",
     },
     {
-      name: "Trip Guide",
+      name: "Caridapp",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This Caritas project is looking for a web application that can schedule, record and speed up the delivery and receipt process of each donation from the simplicity of a mobile device.",
       tags: [
         {
-          name: "nextjs",
+          name: "swift",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "iOS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
-      link_demo : "https://clothing-corner.netlify.app",
+      source_code_link: "https://github.com/jesusej/CaridappServer",
+      link_demo : "https://github.com/jesusej/CaridappServer",
     },
   ];
   

@@ -50,8 +50,9 @@ const About = () => {
       className='mt-4 text-secondary text-[17px] max-w-3xl
       leading-[30px]'
       >
-        I'm skilled software developer with experience in diferents languages,
-        but what I like the most is to improve the lives who i work with, inside and outside the programming
+        I'm skilled Software Engineer with experience in diferents languages, algoriths, projects and more,
+        but what I like the most is to improve me and the people who i work with through the exchange of experiences.
+        I want to make a change inside and outside the programming and I will.
         
 
       </motion.p>

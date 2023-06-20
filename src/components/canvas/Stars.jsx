@@ -12,9 +12,7 @@ const Stars = (props) => {
   {radius: 1.2})
 
   useFrame((state, delta) => {
-    ref.current.rotation.y -= delta/10
-    
-   
+    ref.current.rotation.y += delta/10   
   })
 
   return (

@@ -72,7 +72,7 @@ tags, image, source_code_link, link_demo}) => {
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} className="mt-8">
         <p className={styles.sectionSubText}>
           My work
         </p>

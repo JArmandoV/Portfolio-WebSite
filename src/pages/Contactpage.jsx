@@ -1,4 +1,4 @@
-import { Contact, StarsCanvas } from '../../components'
+import { Contact, StarsCanvas } from '../components'
 
   
   const Contactpage = () => {
@@ -6,6 +6,7 @@ import { Contact, StarsCanvas } from '../../components'
       <div className="relative z-0 bg-primary">
         <Contact />
         <StarsCanvas />
+        
       </div>
     )
   }
