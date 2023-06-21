@@ -1,7 +1,6 @@
 import {
-  About, Experience, Hero
+  About, Experience, Hero, Tech, Works, Contact, StarsCanvas 
 } from '../components'
-import { StarsCanvas } from '../components/canvas'  
 
 const Home = () => {
   const notify = () => toast("Wow so easy!");
@@ -14,6 +13,8 @@ const Home = () => {
       </div>
       <About />
       <Experience />
+      
+     {/* 
       <div className='flex justify-center'> 
       <a href={'/work'}
         className="relative inline-flex items-center justify-center p-0.5 mb-2
@@ -25,6 +26,16 @@ const Home = () => {
           Next
         </span>
         </a>
+      </div>
+    */} 
+      
+      <Works />
+      <Tech />
+
+       <div className="relative z-0 bg-primary">
+        <Contact />
+        <StarsCanvas />
+        
       </div>
     </div>
   )
