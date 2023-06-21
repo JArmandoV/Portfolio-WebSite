@@ -1,21 +1,21 @@
-body {
-    padding: 0;
-    margin: 0;
-    background-color: #6666cc;
-  }
+
   .container {
     background-color: transparent;
     width: 350px;
     height: 350px;
     position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
+    transform: translate(-62%, -50%);
+    top: 40%;
     left: 50%;
     border-radius: 5px;
     box-shadow: 0 20px 40px rgba(10, 10, 49, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .kitty {
     position: absolute;
+    
   }
   .face {
     position: absolute;

@@ -5,7 +5,7 @@ import Cat from './cat/Cat';
 
 const Hero = () => {
   return (
-    <section className='relative w-full h-screen mx-auto bg-hero-pattern bg-no-repeat' id={"home"}>
+    <section className='relative w-full h-screen mx-auto bg-hero-pattern' id={"home"}>
       <div className={`${styles.paddingX} absolute inset-0
       top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5
       `}>
@@ -14,16 +14,18 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 blue-line-gradient' />
         </div>
 
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white` }>
+        <div >
+          <h1 className={`${styles.heroHeadText} text-white relative lg:left-52` }>
             Hi, I'm  </h1>
-            <h1 className={`${styles.heroSubText} ` }>
+            <h1 className={`${styles.heroSubText} relative lg:left-52` }>
             Armando a Software Engineer </h1>
         </div>
       </div>
 
-  
+
     <Cat />
+
+   
         <div className='absolute xs:bottom-10 bottom-32 w-full flex
         justify-center items-center'>
           <a href="#about">
