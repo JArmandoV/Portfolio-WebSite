@@ -21,7 +21,7 @@ const Hero = () => {
             Armando a Software Engineer </h1>
         </div>
       </div>
-
+    {/** */}
 
     <Cat />
 
