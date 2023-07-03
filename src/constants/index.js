@@ -28,6 +28,8 @@ import {
     cenace,
     mysql,
     corner,
+    sgpimg,
+    consumpatter,
   } from "../assets";
   
   export const navLinks = [
@@ -170,6 +172,36 @@ import {
   
   const projects = [
     {
+      name: "SGP",
+      description:
+        "Creation of a budget management system, monitoring, as well as annual planning. Developed with C# on the .Net Framework structured with MVC and a SQL Developer (SQL) database. Use of SCRUM methodology.",
+      tags: [
+        {
+          name: "c#",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sql",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "scrum",
+          color: "blue-text-gradient",
+        },
+        {
+          name: ".net",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "mvc",
+          color: "green-text-gradient",
+        },
+      ],
+      image: sgpimg,
+      source_code_link: "mailto:hector.gutierrez@cenace.gob.mx",
+      link_demo : "mailto:hector.gutierrez@cenace.gob.mx",
+    },
+    {
       name: "Clothing Corner",
       description:
         "Ecommerce web applicacion developed with react, tailwind, javascript and api from fakestoreapi.",
@@ -190,6 +222,28 @@ import {
       image: corner,
       source_code_link: "https://github.com/JArmandoV/Clothing-Corner-Ecommerce",
       link_demo : "https://clothing-corner.netlify.app",
+    },
+    {
+      name: "Consuming Patterns",
+      description:
+        "Identification of patterns of consumption by clients of retail trade by intelligence models artificial",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: consumpatter,
+      source_code_link: "https://docs.google.com/document/u/1/d/e/2PACX-1vRmiTfNZ8BFMgoKZ3D0qAEFx_OOSXjLCrwZzM7fEEXQeYID8MHBqIUY2c3TEop2Qw/pub",
+      link_demo : "https://docs.google.com/document/u/1/d/e/2PACX-1vRmiTfNZ8BFMgoKZ3D0qAEFx_OOSXjLCrwZzM7fEEXQeYID8MHBqIUY2c3TEop2Qw/pub",
     },
     {
       name: "EafySolutions",
@@ -235,6 +289,7 @@ import {
       source_code_link: "https://github.com/jesusej/CaridappServer",
       link_demo : "https://github.com/jesusej/CaridappServer",
     },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };

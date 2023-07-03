@@ -36,8 +36,12 @@ import java from "./company/java.png"
 import carrent from "./carrent.png";
 import jobit from "./EafyProyecto.jpg";
 import tripguide from "./caridapp.png";
+import sgpimg from "./sgp.png";
+import consumpatter from './datanalyst.png'
 
 export {
+  consumpatter,
+  sgpimg,
   play,
   logo,
   backend,
