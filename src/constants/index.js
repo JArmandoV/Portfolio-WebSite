@@ -229,15 +229,15 @@ import {
         "Identification of patterns of consumption by clients of retail trade by intelligence models artificial",
       tags: [
         {
-          name: "react",
+          name: "machine learning",
           color: "blue-text-gradient",
         },
         {
-          name: "javascript",
+          name: "python",
           color: "orange-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "AI",
           color: "pink-text-gradient",
         },
       ],
